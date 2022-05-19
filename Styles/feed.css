@@ -1,0 +1,95 @@
+body{
+  background-color: #283040;
+}
+.tip {
+  color: black;
+  background-color: #F28241;
+  border-radius: 0.625rem;
+  text-align: left;
+  font-size: 1.125rem;
+}
+
+.post-text {
+  margin:1.25rem;
+  padding:1.25rem;
+  background-color: #F2E8D5;
+  resize: none;
+  border: none;
+}
+
+.post-button {
+  margin-top: -5.5rem;
+  background-color: #F2E8D5;
+  border-color: #F2E8D5;
+  border-radius: 0.313rem;
+}
+
+.box-feed {
+  margin: 1rem;
+  padding: 4.25rem;
+  width: 24rem;
+  height: 15rem;
+  border-radius: 1rem;
+
+}
+
+ul,
+li {
+  background-color: #F2E8D5;
+}
+
+.postSection {
+  border-radius: 1rem;
+  background-color: #F2E8D5;
+}
+
+.button-like {
+  border: none;
+  background-color: #F2E8D5;
+  justify-content: left;
+}
+
+.numLikes {
+  color: black;
+  border-radius: 0.625rem;
+  text-align: right;
+  font-size: 0.58rem;
+}
+
+.logout,
+.button-delete {
+  border: none;
+  border-radius: 1rem;
+  background: #F26241;
+
+}
+
+.userPost,
+.userText,
+.numLikes {
+  color: black;
+  border-radius: 0.625rem;
+  text-align: left;
+  background-color: #F2E8D5;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1900px) {
+
+  .tip,
+  .post-text,
+  .post-button {
+    width: 100%;
+    font-size: 0.938rem;
+    border-radius: 0.625rem;
+  }
+
+  .post-text {
+    width: auto;
+  }
+
+  .post-button {
+    width: auto;
+    height: auto;
+    border-radius: 6.25rem;
+  }
+}
