@@ -1,4 +1,3 @@
-import "../lib/config-firebase.js";
 import { userLogin, userGoogle } from "../lib/authentication.js";
 
 export default () => {
@@ -11,7 +10,7 @@ export default () => {
   <button class="enter" type="submit">Entrar</button>
   <p>ou</p>
   <button class="google" type="submit"><span class="googleLogin">Login com o <img src="../images/lg.png" alt="Google" class="googleBtn"/></span></button>
-  <div class="register"><a href="/#register">Cadastre-se</a></div>
+  <div class="register"><a href="#register">Cadastre-se</a></div>
   `;
 
   container.innerHTML = templateLoging;
