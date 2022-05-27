@@ -12,7 +12,6 @@ export default () => {
   <button class="google" type="submit"><span class="googleLogin">Login com o <img src="./images/lg.png" alt="Google" class="googleBtn"/></span></button>
   <div class="register"><a href="/#register">Cadastre-se</a></div>
   `;
-
   container.innerHTML = templateLoging;
 
   const email = container.querySelector(".email");
