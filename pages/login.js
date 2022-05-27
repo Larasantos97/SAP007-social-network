@@ -9,9 +9,10 @@ export default () => {
   <span class="password-error"></span>
   <button class="enter" type="submit">Entrar</button>
   <p>ou</p>
-  <button class="google" type="submit"><span class="googleLogin">Login com o <img src="images/lg.png" alt="Google" class="googleBtn"/></span></button>
-  <div class="register"><a href="#register">Cadastre-se</a></div>
+  <button class="google" type="submit"><span class="googleLogin">Login com o <img src="../images/lg.png" alt="Google" class="googleBtn"/></span></button>
+  <div class="register"><a href="/#register">Cadastre-se</a></div>
   `;
+
   container.innerHTML = templateLoging;
 
   const email = container.querySelector(".email");
