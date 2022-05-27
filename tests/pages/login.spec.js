@@ -1,7 +1,7 @@
 
 import {
-  signInWithEmailAndPassword,
-  GoogleAuthProvider
+  userLogin,
+  userGoogle
 
 } from '../src/lib/authentication.js';
 
@@ -11,10 +11,10 @@ jest.mock("../src/lib/export.js")
 jest.mock("../src/lib/authentication.js")
 
 describe('Its a function', () => {
-  it("signInWithEmailAndPassword", () => {
-    expect(typeof signInWithEmailAndPassword).toBe("fuction");
-    it("GoogleAuthProvider", () => {
-      expect(typeof GoogleAuthProvider).tobe("fuction");
+  it("userLogin", () => {
+    expect(typeof userLogin).toBe("fuction");
+    it(" userGoogle", () => {
+      expect(typeof userGoogle).tobe("fuction");
     })
   })
 })
@@ -31,7 +31,7 @@ describe('login', () => {
     user.value = "teste@leiturama.com"
     password.value = "1234567"
     loginBtn.dispatchEvent(new Event("click"));
-    expect(signInWithEmailAndPassword).oHaveBeenCalledWith(user,password);
+    expect( userLogin).oHaveBeenCalledWith(user,password);
 
   });
 });
