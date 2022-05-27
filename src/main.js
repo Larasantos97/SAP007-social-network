@@ -17,7 +17,7 @@ const redirect = () => {
       break;
     case "#feed":
 
-      
+
       keepUserLoggedIn((logged) => {
         if (logged) {
           main.appendChild(feed());
