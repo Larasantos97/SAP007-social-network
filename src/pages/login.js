@@ -9,7 +9,7 @@ export default () => {
   <span class="password-error"></span>
   <button class="enter" type="submit">Entrar</button>
   <p>ou</p>
-  <button class="google" type="submit"><span class="googleLogin">Login com o <img src="../../images/lg.png" alt="Google" class="googleBtn"/></span></button>
+  <button class="google" type="submit"><span class="googleLogin">Login com o <img src="src/images/lg.png" alt="Google" class="googleBtn"/></span></button>
   <div class="register"><a href="#register">Cadastre-se</a></div>
   `;
 
