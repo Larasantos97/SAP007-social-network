@@ -1,40 +1,27 @@
+/*
+ * @jest-environment jsdom
+ */
+import { userLogin, userGoogle } from "../../src/lib/authentication.js";
 
-import {
-  userLogin,
-  userGoogle
+import login from "../../src/pages/login.js";
 
-} from '../src/lib/authentication.js';
+jest.mock("../../src/lib/export.js");
+jest.mock("../../src/lib/authentication.js");
 
-import { login } from "../src/pages/login.js"
+describe("pagina de login", () => {
+  it("deverá logar usuário com sucesso", () => {
+    userLogin.mockResolvedValueOnce();
 
-jest.mock("../src/lib/export.js")
-jest.mock("../src/lib/authentication.js")
+    const page = login();
+    const user = page.querySelector(".email");
+    const password = page.querySelector(".password");
+    const loginBtn = page.querySelector(".enter");
 
-describe('Its a function', () => {
-  it("userLogin", () => {
-    expect(typeof userLogin).toBe("fuction");
-    it(" userGoogle", () => {
-      expect(typeof userGoogle).tobe("fuction");
-    })
-  })
-})
-
-
-describe('login', () => {
-  it('its a function', () => {
-    login.mockResolvedValueOnce();
-    const page = login()
-    const user = page.queryselector(".email")
-    const password = page.queryselector(".password")
-    const loginBtn = page.queryselector(".enter")
-
-    user.value = "teste@leiturama.com"
-    password.value = "1234567"
-    loginBtn.dispatchEvent(new Event("click"));
-    expect( userLogin).oHaveBeenCalledWith(user,password);
-
+    user.value = "teste@lab.com";
+    password.value = "1234567";
+    page.submit();
+    expect(userLogin).toHaveBeenCalledWith("teste@lab.com", "1234567");
   });
 });
 
-const error = {code:'udh/internal-error'};
-
+const error = { code: "udh/internal-error" };
