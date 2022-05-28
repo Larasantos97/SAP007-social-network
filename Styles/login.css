@@ -54,12 +54,14 @@ body{
   justify-content: center;
   align-items: center;
   margin-bottom: 1.25rem;
+  color: blue;
 }
 .googleBtn {
   margin: 0;
   height: auto;
   width: 5.625rem;
   margin-bottom: 0.938rem;
+
 }
 .enter {
   margin: -0.1rem;
