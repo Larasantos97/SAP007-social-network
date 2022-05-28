@@ -15,7 +15,7 @@
 
 Leiturama é a rede social (Single Page Aplication) criada para qualquer pessoa que tenha gosto pela leitura. A ideia é simples: usuários podem compartilhar dicas de leitura e interagir com posts de outros usuários. Além disso, qualquer usuário pode criar uma conta de acesso,logar-se com ela, editar, deletar e dar _likes_ em publicações. [Acesse aqui!](https://larasantos97.github.io/SAP007-social-network/)
 
-## 2. Desenvolvedoras
+## 2. Desenvolvedoras 
 
 Este projeto foi desenvolvido por [Jessika Mirella](https://github.com/JessikaMirella),[Larissa Santos](https://github.com/Larasantos97) e [Wayra Arendartchuk](https://github.com/WayraArendartchukCastro), alunas da sétima geração do Bootcamp Laboratória Br.
 
