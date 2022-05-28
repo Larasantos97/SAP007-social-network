@@ -1,4 +1,4 @@
-import "../lib/config-firebase.js";
+//import "../lib/config-firebase.js";
 import {
   userRegister
 } from "../lib/authentication.js";

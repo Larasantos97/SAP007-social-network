@@ -56,13 +56,13 @@ body{
   margin-bottom: 1.25rem;
   color: blue;
 }
-.googleBtn {
+/*.googleBtn {
   margin: 0;
   height: auto;
   width: 5.625rem;
   margin-bottom: 0.938rem;
 
-}
+}*/
 .enter {
   margin: -0.1rem;
   padding: 0.188rem;
@@ -129,12 +129,12 @@ p {
     justify-content: center;
     align-items: center;
 }
-.googleBtn{
+/*.googleBtn{
     margin: 0;
     height: auto;
     width: 5.125rem;
     margin-top: 0.313rem;
-}
+}*/
 .enter{
     margin: 1rem;
     padding: 0.188rem;
