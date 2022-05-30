@@ -1,4 +1,3 @@
-// Este es el punto de entrada de tu aplicacion
 import "./lib/config-firebase.js"
 import login from "./pages/login.js";
 import feed from "./pages/feed.js";

@@ -1,6 +1,3 @@
-/*
- * @jest-environment jsdom
- */
 import { userLogin, userGoogle } from "../../src/lib/authentication.js";
 
 import login from "../../src/pages/login.js";

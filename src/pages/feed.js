@@ -124,14 +124,6 @@ export default () => {
 
         })
 
-
-
-        // const saveBtn = postContainer.querySelector(".button-save")
-        // editBtn.insertAdjacentHTML("afterend", saveBtn)
-        //um novo botão para confirmar/cancelar a edição
-        //atualizar o valor setatribute(true)
-        //pegar o valor novo do pragrafo chamar a funçao com id do post
-
       });
     }
 
