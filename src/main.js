@@ -1,10 +1,10 @@
 // Este es el punto de entrada de tu aplicacion
-import "./lib/config-firebase.js"
+import "./lib/config-firebase.js";
 import login from "./pages/login.js";
 import feed from "./pages/feed.js";
 import register from "./pages/register.js";
 import {
-  keepUserLoggedIn
+  keepUserLoggedIn,
 } from "./lib/authentication.js";
 
 const main = document.querySelector("#root");
@@ -16,7 +16,6 @@ const redirect = () => {
       main.appendChild(login());
       break;
     case "#feed":
-
 
       keepUserLoggedIn((logged) => {
         if (logged) {

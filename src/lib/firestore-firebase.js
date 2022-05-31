@@ -8,14 +8,14 @@ import {
   updateDoc,
   arrayUnion,
   arrayRemove,
-  getDoc
+  getDoc,
 
 } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js";
 import {
-  db
+  db,
 } from "./config-firebase.js";
 import {
-  auth
+  auth,
 } from "./authentication.js";
 
 export const createPost = async (textPost) => {
@@ -54,9 +54,7 @@ export const getPosts = async () => {
 export const postDelete = async (id) => {
   console.log(id);
   await deleteDoc(doc(db, "post", id));
-
 };
-
 
 export function like(id) {
   const post = doc(db, "post", id);
@@ -73,15 +71,15 @@ export function dislike(id) {
 }
 
 export const postEdit = async (idPost, textPost) => {
- console.log(textPost)
-  const post = doc(db, 'post', idPost);
+  console.log(textPost);
+  const post = doc(db, "post", idPost);
 
   return await updateDoc(post, {
-    textPost
+    textPost,
   });
 };
 
-/*export const likePost = async (idPost) => {
+/* export const likePost = async (idPost) => {
   const ref = await getDoc(doc(db, 'post', idPost));
 const post= ref.data()
 console.log(post)
@@ -93,4 +91,4 @@ console.log(post)
 //pegar o array de likes, se a pessoa curtiu tirar o like, se não adicionar o like
 //ataulizar o post com o array de like, depois retornar um objeto com essa curtida e total
 
-}*/
+} */

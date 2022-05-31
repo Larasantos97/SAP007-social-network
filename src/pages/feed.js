@@ -141,12 +141,12 @@ export default () => {
   btnPost.addEventListener("click", async () => {
     const timeLine = postArea.innerHTMl;
     postArea.innerHTML = "";
-    const text = textPost.value;
-    if (text === "") {
+    if (textPost.value === "") {
       msgError.innerHTML = "Opa, digite sua mensagem!";
-    } else;
+    } else
     {
       await createPost(textPost.value);
+      textPost.value = ""
       readPosts();
       postArea.innerHTML += timeLine;
     }

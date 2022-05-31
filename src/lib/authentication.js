@@ -17,9 +17,9 @@ export function userLogin(email, password) {
     (userCredential) => {
       const user = userCredential.user;
       return user;
-    }
+    },
   );
-};
+}
 
 export function userGoogle() {
   return signInWithPopup(auth, provider)
@@ -27,8 +27,8 @@ export function userGoogle() {
       const credential = GoogleAuthProvider.credentialFromResult(result);
       const token = credential.accessToken;
       const user = result.user;
-      return user
-    })
+      return user;
+    });
 }
 
 export function userRegister(email, password) {
@@ -36,20 +36,18 @@ export function userRegister(email, password) {
     .then((userCredential) => {
       const user = userCredential.user;
       return user;
-    })
-
+    });
 }
 
 export function getUser() {
-  return auth.currentUser
+  return auth.currentUser;
 }
-export function keepUserLoggedIn(callback){
+export function keepUserLoggedIn(callback) {
   onAuthStateChanged(auth, (user) => {
-    callback (user != null);
+    callback(user != null);
   });
 }
 
-export function logout () {
-  signOut(auth)
+export function logout() {
+  signOut(auth);
 }
-
