@@ -28,8 +28,8 @@ body {
 }
 .email,
 .password,
-.enter,
-.google {
+.enter
+{
   color: black;
   background-color: #f2e8d5;
   position: relative;
@@ -41,20 +41,11 @@ body {
   margin: 1em;
 }
 
-.google {
-  background-color: #283040;
-  border-color: #283040;
-  color: #fff;
-  font-size: 1.2em;
-  text-align: center;
-}
-.googleLogin {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1.25rem;
-  color: blue;
+.google{
+  margin: 0%;
+  border-radius: 5px ;
+  background-color: #f28241;
+
 }
 
 .enter {
@@ -108,8 +99,8 @@ p {
   }
   .email,
   .password,
-  .enter,
-  .google {
+  .enter
+  {
     background-color: #f2e8d5;
     position: relative;
     border: 0.063rem solid;
