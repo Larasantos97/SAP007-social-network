@@ -9,7 +9,7 @@ export default () => {
   <span class="password-error"></span>
   <button class="enter" type="submit">Entrar</button>
   <p>ou</p>
-  <button class="google" type="submit"><span class="googleLogin">Login com o GOOGLE</span></button>
+  <button class="google" type="submit">Login com o <img class= "google-button" src= "./images/google.png" height ="30" width="40"/></button>
   <div class="register"><a href="#register">Cadastre-se</a></div>
   `;
   container.innerHTML = templateLoging;

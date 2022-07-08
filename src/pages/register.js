@@ -10,19 +10,18 @@ export default () => {
 
   const template = `
   <div class="container">
-  <form class="form-register">
-  <input type="text" class="name-register" placeholder="nome:"/>
-  <input type="email" class="email-register" id="email" autocomplete="on" required placeholder="e-mail:"/>
-  <input type="password" class="password-register" id="password" minlength="6"required placeholder="crie uma senha:"/>
-  <input type="password" class="password-register" id="password" minlength="6"required placeholder="confirmar senha:"/>
-  <span class="error-register"></span>
-  <button type= "submit" class="button-register">Cadastrar</button>
-  </form>
+    <form class="form-register">
+      <input type="text" class="name-register" placeholder="nome:"/>
+      <input type="email" class="email-register" id="email" autocomplete="on" required placeholder="e-mail:"/>
+      <input type="password" class="password-register" id="password" minlength="6"required placeholder="crie uma senha:"/>
+      <input type="password" class="password-register" id="password" minlength="6"required placeholder="confirmar senha:"/>
+      <span class="error-register"></span>
+      <button type= "submit" class="button-register">Cadastrar</button>
+    </form>
   </div>`;
 
   container.innerHTML = template;
 
-  //const registerName = container.querySelector(".name-register");
   const registerEmail = container.querySelector(".email-register");
   const registerPassword = container.querySelector(".password-register");
   const buttonRegister = container.querySelector(".button-register");

@@ -8,15 +8,10 @@ import {
   updateDoc,
   arrayUnion,
   arrayRemove,
-  getDoc
-
+  getDoc,
 } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js";
-import {
-  db
-} from "./config-firebase.js";
-import {
-  auth
-} from "./authentication.js";
+import { db } from "./config-firebase.js";
+import { auth } from "./authentication.js";
 
 export const createPost = async (textPost) => {
   try {
@@ -54,9 +49,7 @@ export const getPosts = async () => {
 export const postDelete = async (id) => {
   console.log(id);
   await deleteDoc(doc(db, "post", id));
-
 };
-
 
 export function like(id) {
   const post = doc(db, "post", id);
@@ -73,24 +66,10 @@ export function dislike(id) {
 }
 
 export const postEdit = async (idPost, textPost) => {
- console.log(textPost)
-  const post = doc(db, 'post', idPost);
+  console.log(textPost);
+  const post = doc(db, "post", idPost);
 
   return await updateDoc(post, {
-    textPost
+    textPost,
   });
 };
-
-/*export const likePost = async (idPost) => {
-  const ref = await getDoc(doc(db, 'post', idPost));
-const post= ref.data()
-console.log(post)
-//Consultar o post com este ID
-//Pegar o id da pessoa logada
-//Verificar se os likes do post contém o id da pessoa logada
-//precisaremos de uma variavel booleana para indicar se o like foi feito ou não
-//Uma outra variavel com o total
-//pegar o array de likes, se a pessoa curtiu tirar o like, se não adicionar o like
-//ataulizar o post com o array de like, depois retornar um objeto com essa curtida e total
-
-}*/

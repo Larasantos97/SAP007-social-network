@@ -23,9 +23,9 @@ body{
 }
 
 @media screen and (max-width: 1900px) and (min-width: 630px), (min-width: 768px) {
-.title{
- margin-top: 12.754rem;
-}
+  .title{
+  margin-top: 12.754rem;
+  }
   .form-register {
     margin: 1.8em;
     padding: auto;
