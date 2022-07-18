@@ -1,12 +1,11 @@
-//import "../lib/config-firebase.js";
+
 import {
   userRegister
 } from "../lib/authentication.js";
-//import { template } from "@babel/core";
+
 
 export default () => {
-  const container = document.createElement("section");
-
+  const container = document.createElement("div");
 
   const template = `
   <div class="container">
