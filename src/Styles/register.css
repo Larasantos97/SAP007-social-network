@@ -1,27 +1,37 @@
 body{
   background-color: #283040;
 }
+
+.container{
+  display: flex;
+}
 .name-register,
 .email-register,
 .password-register {
-  margin: 1.25rem;
-  background-color: #F2E8D5;
-  position: relative;
+  color: black;
+  background-color: #f2e8d5;
   border: 0.063rem solid;
   border-radius: 1.188rem;
-  text-align: center;
-  width: 15em;
   height: 2em;
+  width: 15em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8px;
 }
+
 
 .button-register {
-  background-color: #F2E8D5;
+  background-color: #f2e8d5;
   width: 7em;
-  height: 2.7em;
+  height: 2em;
   border-radius: 1.188rem;
   cursor: pointer;
+  margin-top: 8px;
 }
 
+/*
 @media screen and (max-width: 1900px) and (min-width: 630px), (min-width: 768px) {
   .title{
   margin-top: 12.754rem;
@@ -32,4 +42,4 @@ body{
     width: 150em;
     height: 25em;
   }
-}
+}*/

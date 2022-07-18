@@ -16,7 +16,8 @@ body {
   color: #fff;
   font-size: 2.25rem;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 30%;
+  z-index: 1;
 }
 
 .logo-title{
