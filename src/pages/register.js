@@ -8,6 +8,9 @@ export default () => {
   const container = document.createElement("div");
 
   const template = `
+  <div class= "title">
+      <img src="../images/title.png" alt="leiturama" class= "title-image">
+ </div>
   <div class="container">
     <form class="form-register">
       <input type="text" class="name-register" placeholder="nome:"/>

@@ -8,11 +8,10 @@
 
 .post-text {
   margin: 1.25rem;
-  padding: 1.25rem;
   background-color: #f2e8d5;
   resize: none;
   border: none;
-  height: 70%;
+  height: 80%;
   width: auto;
 }
 .btns {
@@ -26,14 +25,15 @@
   background-color: rgb(115, 181, 115);
 }
 .post-button {
-  margin-top: 0.5rem;
+  margin-bottom: 50px;
   background-color: #f2e8d5;
   border-color: #f2e8d5;
   border-radius: 0.313rem;
+  
 }
 .container-template {
-  width: 40%;
-  height: auto;
+  width: 20%;
+  height: 60%;
 }
 
 .box-feed {
@@ -122,7 +122,7 @@ li {
     margin-top: 4.754rem;
   }
   .container-template {
-    width: 80%;
+    width: 40%;
     height: auto;
   }
   .tip,

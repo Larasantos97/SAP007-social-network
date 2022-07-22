@@ -1,34 +1,55 @@
-body{
-  background-color: #283040;
-}
+
 
 .container{
   display: flex;
+  width: 300px;
+  height: 280px;
+  display: flex;
+  background-color: #F2CEA2;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-right: -190%;
+  margin-top: 70%;
 }
+
+.title{
+  display: flex;
+  margin-right: -190%;
+  margin-bottom: -60%;
+}
+
+.title-image{
+  height: 40px;
+  width: auto;
+}
+
+
 .name-register,
 .email-register,
 .password-register {
-  color: black;
+  color: #D97941;
   background-color: #f2e8d5;
   border: 0.063rem solid;
-  border-radius: 1.188rem;
-  height: 2em;
-  width: 15em;
+  border-radius: 5px;
+  height: 1.5em;
+  width: 16em;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 8px;
+  text-decoration: #D97941;
+  margin-top: 10px;
 }
 
 
 .button-register {
-  background-color: #f2e8d5;
-  width: 7em;
-  height: 2em;
-  border-radius: 1.188rem;
+  background-color: #D97941;
+  color: #f2e8d5;
+  width: 6em;
+  height: 1.75em;
+  border-radius: 3px;
   cursor: pointer;
   margin-top: 8px;
+  text-decoration: #D97941;
+  border: 0.063rem solid;
 }
 
 /*

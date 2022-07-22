@@ -3,17 +3,22 @@ import { userLogin, userGoogle } from "../lib/authentication.js";
 export default () => {
   const container = document.createElement("div");
   const templateLoging = `
-  <div class= "flex-container">
-    <form>
-      <input class="email" placeholder ="e-mail" type="email" required>
-      <span class="email-error"></span>
-      <input class="password" placeholder="senha" minlength="6" type="password" required>
-      <span class="password-error"></span>
-      <button class="enter" type="submit">Entrar</button>
-      <p class= "login-google">Faça login com sua conta Google</p>
-      <button class="google" type="submit"><img class= "google-button" src= "./images/google.png" height ="30" width="40"/></button>
-      <div class="register"><a href="#register">Cadastre-se</a></div>
-    </form>
+  <div class= "main-container">
+    <div class= "title">
+      <img src="../images/title.png" alt="leiturama" class= "title-image">
+    </div>
+      <div class= "flex-container">
+        <form>
+          <input class="email" placeholder ="e-mail" type="email" required>
+          <span class="email-error"></span>
+          <input class="password" placeholder="senha" minlength="6" type="password" required>
+          <span class="password-error"></span>
+          <button class="enter" type="submit">Entrar</button>
+          <p class= "login-google">Entre com sua conta Google</p>
+          <button class="google" type="submit"><img class= "google-button" src= "./images/google.png" height ="30" width="30"/></button>
+          <div class="register"><a href="#register">Cadastre-se</a></div>
+        </form>
+    </div>
   </div>`;
   container.innerHTML = templateLoging;
 
