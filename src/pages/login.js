@@ -5,7 +5,7 @@ export default () => {
   const templateLoging = `
   <div class= "main-container">
     <div class= "title">
-      <img src="../images/title.png" alt="leiturama" class= "title-image">
+      <img src="./images/title.png" alt="leiturama" class= "title-image">
     </div>
     <div class= "flex-container">
       <form>
@@ -15,7 +15,7 @@ export default () => {
         <span class="password-error"></span>
         <button class="enter" type="submit">Entrar</button>
         <p class= "login-google">Entre com sua conta Google</p>
-        <button class="google" type="submit"><img class= "google-button" src= "../images/google.png" height ="30" width="30"/></button>
+        <button class="google" type="submit"><img class= "google-button" src= "./images/google.png" height ="30" width="30"/></button>
         <div class="register"><a href="#register">Cadastre-se</a></div>
       </form>
     </div>

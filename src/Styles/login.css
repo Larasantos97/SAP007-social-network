@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (min-width: 360px){
 body {
   background-color: #91d9bf;
   background-image: url("../images/livros_4.jpeg");
@@ -95,7 +97,7 @@ body {
 p {
   color: #d97941;
 }
-
+}
 @media screen and (min-width: 1024px) {
   .main-container {
     margin-left: 55%;

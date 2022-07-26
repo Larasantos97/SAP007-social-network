@@ -1,3 +1,4 @@
+@media screen and (min-width: 360px){
 .main-register {
   display: flex;
 }
@@ -54,6 +55,7 @@
   margin-top: 8px;
   text-decoration: #d97941;
   border: 0.063rem solid;
+}
 }
 
 @media screen and (min-width: 1024px) {
