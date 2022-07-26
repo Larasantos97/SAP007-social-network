@@ -13,7 +13,7 @@
 
 ## 1. Sobre o projeto
 
-Leiturama é a rede social (Single Page Aplication) criada para qualquer pessoa que tenha gosto pela leitura. A ideia é simples: usuários podem compartilhar dicas de leitura e interagir com posts de outros usuários. Além disso, qualquer usuário pode criar uma conta de acesso,logar-se com ela, editar, deletar e dar _likes_ em publicações. [Acesse aqui!](https://larasantos97.github.io/SAP007-social-network/)
+Leiturama é a rede social (Single Page Aplication) criada para qualquer pessoa que tenha gosto pela leitura. A ideia é simples: usuários podem compartilhar dicas de leitura e interagir com posts de outros usuários. Além disso, qualquer usuário pode criar uma conta de acesso,logar-se com ela, editar, deletar e dar _likes_ em publicações. [Acesse aqui!](https://jessikamirella.github.io/SAP007-social-network/)
 
 ## 2. Desenvolvedoras
 
