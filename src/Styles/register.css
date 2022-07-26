@@ -1,13 +1,11 @@
-
-.main-register{
+.main-register {
   display: flex;
-
 }
 
-.container{
+.container {
   width: 280px;
-  height:260px;
-  background-color: #F2CEA2;
+  height: 260px;
+  background-color: #f2cea2;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -16,15 +14,13 @@
   margin-top: 30%;
 }
 
-.title-register{
+.title-register {
   text-align: center;
   justify-content: center;
   align-items: center;
-
-
 }
 
-.title-image-register{
+.title-image-register {
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -37,44 +33,41 @@
 .name-register,
 .email-register,
 .password-register {
-  color: #D97941;
+  color: #d97941;
   background-color: #f2e8d5;
   border: 0.063rem solid;
   border-radius: 5px;
   height: 1.5em;
   width: 16em;
   text-align: center;
-  text-decoration: #D97941;
+  text-decoration: #d97941;
   margin-top: 10px;
 }
 
-
 .button-register {
-  background-color: #D97941;
+  background-color: #d97941;
   color: #f2e8d5;
   width: 6em;
   height: 1.75em;
   border-radius: 3px;
   cursor: pointer;
   margin-top: 8px;
-  text-decoration: #D97941;
+  text-decoration: #d97941;
   border: 0.063rem solid;
 }
 
-@media screen and (min-width: 1024px){
-  .main-register{
+@media screen and (min-width: 1024px) {
+  .main-register {
     margin-left: 55%;
-
   }
 
-  .title-register{
+  .title-register {
     text-align: center;
     justify-content: center;
     align-items: center;
-
   }
 
-  .title-image-regiter{
+  .title-image-regiter {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -83,60 +76,15 @@
     height: auto;
   }
 
-  .container{
+  .container {
     width: 280px;
-    height:260px;
-    background-color: #F2CEA2;
+    height: 260px;
+    background-color: #f2cea2;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
     margin-top: 5%;
-
   }
 }
-
-/*@media (min-width: 360px) {
-
-  .flex-container{
-    margin-left: 30%;
-    flex-direction: column;
-    justify-content: center;
-
-  }
-
-  body {
-    background-color: #91D9BF;
-    background-image: url('../images/livros_4.jpeg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    display: flex;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  .title{
-    display: flex;
-    margin-bottom: -60%;
-    margin-right: 80%;
-  }
-
-
- }
-
-/*
-@media screen and (max-width: 1900px) and (min-width: 630px), (min-width: 768px) {
-  .title{
-  margin-top: 12.754rem;
-  }
-  .form-register {
-    margin: 1.8em;
-    padding: auto;
-    width: 150em;
-    height: 25em;
-  }
-}*/

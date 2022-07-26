@@ -5,28 +5,26 @@
   margin: 0;
 }
 body {
-  background-color: #91D9BF;
-  background-image: url('../images/livros_4.jpeg');
+  background-color: #91d9bf;
+  background-image: url("../images/livros_4.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   display: flex;
-  background-size: cover;}
+  background-size: cover;
+}
 
-  .main-container{
-    display: flex;
-  }
+.main-container {
+  display: flex;
+}
 
-
-.title{
+.title {
   text-align: center;
   justify-content: center;
   align-items: center;
-
 }
 
-
-.title-image{
+.title-image {
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -35,19 +33,16 @@ body {
   height: auto;
 }
 
-
-
-.flex-container{
+.flex-container {
   width: 280px;
-  height:260px;
-  background-color: #F2CEA2;
+  height: 260px;
+  background-color: #f2cea2;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 30%;
-
 }
 
 .email,
@@ -55,28 +50,27 @@ body {
 .enter,
 .google,
 .register,
-.login-google{
-  align-items:center;
+.login-google {
+  align-items: center;
   flex-direction: column-reverse;
   margin-top: 10px;
 }
 
 .email,
-.password
-{
-  color: #D97941;
+.password {
+  color: #d97941;
   background-color: #f2e8d5;
   border: 0.063rem solid;
   border-radius: 5px;
   height: 1.75em;
   width: 17em;
   text-align: center;
-  text-decoration: #D97941;
+  text-decoration: #d97941;
 }
 
-.enter{
+.enter {
   color: #f2e8d5;
-  background-color: #D97941;
+  background-color: #d97941;
   border: 0.063rem solid;
   border-radius: 5px;
   height: 1.75em;
@@ -86,37 +80,34 @@ body {
   justify-content: center;
 }
 
-.google{
-  background-color: #F2CEA2;
-  border: none ;
+.google {
+  background-color: #f2cea2;
+  border: none;
   margin-bottom: 10px;
   cursor: pointer;
-/*  box-shadow:0 4px 5px -1px #f2e8d5;*/
+  /*  box-shadow:0 4px 5px -1px #f2e8d5;*/
 }
 
-.register{
+.register {
   font-size: 90%;
 }
 
-p{
-  color:#D97941
+p {
+  color: #d97941;
 }
 
-
-@media screen and (min-width: 1024px){
-  .main-container{
+@media screen and (min-width: 1024px) {
+  .main-container {
     margin-left: 55%;
-
   }
 
-  .title{
+  .title {
     text-align: center;
     justify-content: center;
     align-items: center;
-
   }
 
-  .title-image{
+  .title-image {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -125,171 +116,15 @@ p{
     height: auto;
   }
 
-  .flex-container{
+  .flex-container {
     width: 280px;
-    height:260px;
-    background-color: #F2CEA2;
+    height: 260px;
+    background-color: #f2cea2;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
     margin-top: 5%;
-
   }
 }
-
-/*@media (min-width: 360px) {
-
-  .flex-container{
-    margin-right: 3%;
-    flex-direction: column;
-    justify-content: center;
-
-  }
-
-  .title{
-    display: flex;
-    margin-bottom: -60%;
-    flex-direction: column;
-
-  }
-
-  .title-image{
-    margin-right: 240%;
-
-  }
-
-  body {
-    background-color: #91D9BF;
-    background-image: url('../images/livros_4.jpeg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    display: flex;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-  }
-
- }
-
-
-
-
-
-
-
-
-
-
-
-/*.email,
-.password,
-.enter
-{
-  color: black;
-  background-color: #f2e8d5;
-  position: relative;
-  border: 0.063rem solid;
-  border-radius: 1.188rem;
-  text-align: center;
-  height: 2em;
-  width: 20em;
-  margin: 1em;
-}
-
-.google{
-  margin: 0%;
-  border-radius: 5px ;
-  background-color: #f28241;
-
-}
-
-.enter {
-  margin: -0.1rem;
-  padding: 0.188rem;
-  width: 6em;
-  height: 2em;
-  cursor: pointer;
-  color: #757575;
-}
-a {
-  margin: 1rem;
-  text-decoration: none;
-  color: #fff;
-  justify-content: center;
-  text-align: center;
-  font-size: 1.2em;
-  z-index: 1;
-}
-
-p {
-  color: #fff;
-  font-size: 1.2em;
-}
-
-@media screen and (max-width: 1900px) and (min-width: 630px),
-  (min-width: 768px) {
-  body {
-    background: linear-gradient(
-      0deg,
-      rgba(242, 130, 65, 1) 50%,
-      rgba(40, 48, 64, 1) 10%
-    );
-  }
-  .logo {
-    height: auto;
-    width: 17em;
-    margin-left: 3.125rem;
-  }
-  .title {
-    color: #fff;
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    align-items: center;
-  }
-  .root {
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-  .email,
-  .password,
-  .enter
-  {
-    background-color: #f2e8d5;
-    position: relative;
-    border: 0.063rem solid;
-    border-radius: 1.188rem;
-    text-align: center;
-    width: 21em;
-    height: 2.25em;
-  }
-
-  p {
-    background-color: #f28241;
-    border: none;
-    color: #fff;
-    font-size: 1.1em;
-    text-align: center;
-  }
-  .googleLogin {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .enter {
-    margin: 1rem;
-    padding: 0.188rem;
-    width: 6em;
-    height: 2em;
-    cursor: pointer;
-    color: #000000;
-  }
-}/*

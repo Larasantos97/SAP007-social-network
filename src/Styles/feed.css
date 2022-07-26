@@ -1,17 +1,37 @@
+.post{
+  display: flex;
+
+}
+
+.title-feed{
+  display: flex;
+
+}
+
+.title-image-feed{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  margin: 40px;
+}
+
 .tip {
   color: black;
-  background-color: #f28241;
+  background-color: #d97941;
   border-radius: 0.625rem;
   text-align: left;
   font-size: 1.125rem;
 }
 
 .post-text {
-  margin: 1.25rem;
-  background-color: #f2e8d5;
+  margin: 1rem;
+  background-color: #f2cea2;
   resize: none;
   border: none;
-  height: 80%;
+  height: 100%;
   width: auto;
 }
 .btns {
@@ -21,15 +41,15 @@
   z-index: 1;
 }
 .save {
-  border-radius: 0.5rem;
+  border-radius: 2px;
   background-color: rgb(115, 181, 115);
 }
 .post-button {
-  margin-bottom: 50px;
-  background-color: #f2e8d5;
+  margin-top: 10px;
+  background-color: #d97941;
   border-color: #f2e8d5;
-  border-radius: 0.313rem;
-  
+  border-radius: 1px;
+
 }
 .container-template {
   width: 20%;
@@ -38,9 +58,9 @@
 
 .box-feed {
   margin: 1rem;
-  padding: 2.25rem;
-  width: 21rem;
-  height: 9rem;
+  padding: 2rem;
+  width: 19rem;
+  height: 8rem;
   border-radius: 1rem;
 }
 
@@ -67,8 +87,10 @@ li {
 
 .logout {
   border: none;
-  border-radius: 2rem;
-  background: #f26241;
+  border-radius: 1rem;
+  background: #d97941;
+  justify-content:center;
+  margin: 10px;
 }
 
 .button-edit,
