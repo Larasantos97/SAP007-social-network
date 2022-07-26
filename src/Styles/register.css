@@ -1,4 +1,4 @@
-@media (min-width: 360px){
+@media screen and (min-width: 360px){
 .main-register {
   display: flex;
 }
@@ -58,7 +58,7 @@
 }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .main-register {
     margin-left: 55%;
   }
