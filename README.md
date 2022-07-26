@@ -37,16 +37,20 @@ Desenvolvemos os protótipos de baixa e alta fidelidade através da plataforma F
 <br>
 
 #### Mobile Login
-<div align="center"><img  src="./src/images/mobile1.png"/></div>
+<div align="center"><img  src="./src/images/mobile.jpeg"/></div>
 <br>
 <br>
 
 
 #### Mobile Feed
-<div align="center"><img src="./src/images/iphonefeed.png"/></div>
+<div align="center"><img src="./src/images/feed-mobile.jpeg"/></div>
+<div align="center"><img src="./src/images/feed_mobile2.jpeg"/></div>
 
 #### Desktop Login
-<div align="center"><img src="./src/images/desktop1.png"/></div>
+<div align="center"><img src="./src/images/prototipo_desktop.jpeg"/></div>
+
+#### Desktop Feed
+<div align="center"><img src="./src/images/feed_desk.jpeg"/></div>
 <br>
 <br>
 
