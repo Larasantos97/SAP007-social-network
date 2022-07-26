@@ -10,7 +10,7 @@ export default () => {
   const template = `
   <div class= "main-register">
     <div class= "title-register">
-        <img src="../images/title.png" alt="leiturama" class= "title-image-register">
+        <img src="./images/title.png" alt="leiturama" class= "title-image-register">
     </div>
     <div class="container">
       <form class="form-register">
