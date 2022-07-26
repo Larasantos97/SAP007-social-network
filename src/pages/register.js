@@ -8,18 +8,20 @@ export default () => {
   const container = document.createElement("div");
 
   const template = `
-  <div class= "title">
-      <img src="../images/title.png" alt="leiturama" class= "title-image">
- </div>
-  <div class="container">
-    <form class="form-register">
-      <input type="text" class="name-register" placeholder="nome:"/>
-      <input type="email" class="email-register" id="email" autocomplete="on" required placeholder="e-mail:"/>
-      <input type="password" class="password-register" id="password" minlength="6"required placeholder="crie uma senha:"/>
-      <input type="password" class="password-register" id="password" minlength="6"required placeholder="confirmar senha:"/>
-      <span class="error-register"></span>
-      <button type= "submit" class="button-register">Cadastrar</button>
-    </form>
+  <div class= "main-register">
+    <div class= "title-register">
+        <img src="../images/title.png" alt="leiturama" class= "title-image-register">
+    </div>
+    <div class="container">
+      <form class="form-register">
+        <input type="text" class="name-register" placeholder="nome:"/>
+        <input type="email" class="email-register" id="email" autocomplete="on" required placeholder="e-mail:"/>
+        <input type="password" class="password-register" id="password" minlength="6"required placeholder="crie uma senha:"/>
+        <input type="password" class="password-register" id="password" minlength="6"required placeholder="confirmar senha:"/>
+        <span class="error-register"></span>
+        <button type= "submit" class="button-register">Cadastrar</button>
+      </form>
+    </div>
   </div>`;
 
   container.innerHTML = template;
