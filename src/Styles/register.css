@@ -58,7 +58,7 @@
 }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .main-register {
     margin-left: 55%;
   }

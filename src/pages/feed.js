@@ -13,7 +13,7 @@ export default () => {
   const template = `
     <section id="post" class="post">
       <div class= "title-feed">
-        <img src="../images/title.png" alt="leiturama" class= "title-image-feed">
+        <img src="./images/title.png" alt="leiturama" class= "title-image-feed">
       </div>
       <button id= "logout" class= "logout"><svg width="37" height="37" stroke-width="2.9" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M12 12H19M19 12L16 15M19 12L16 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
