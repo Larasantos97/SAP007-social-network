@@ -60,27 +60,25 @@
 
 @media screen and (min-width: 1024px){
   .main-register {
-    margin-left: 55%;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 15%;
   }
 
   .title-register {
     text-align: center;
-    justify-content: center;
-    align-items: center;
   }
 
   .title-image-regiter {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     height: auto;
   }
 
   .container {
-    width: 280px;
-    height: 260px;
+    width: 380px;
+    height: 360px;
     background-color: #f2cea2;
     border-radius: 5px;
     display: flex;
@@ -90,3 +88,12 @@
     margin-top: 5%;
   }
 }
+
+@media screen and (min-width: 1280px){
+  .main-container {
+    margin-left: 60%;
+    margin-top: 15%;
+  }
+
+}
+

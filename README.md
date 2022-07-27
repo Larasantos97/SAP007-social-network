@@ -47,7 +47,7 @@ Desenvolvemos os protótipos de baixa e alta fidelidade através da plataforma F
 <div align="center"><img src="./src/images/feed_mobile2.jpeg"/></div>
 
 #### Desktop Login
-<div align="center"><img src="./src/images/prototipo_desktop.jpeg"/></div>
+<div align="center"><img src="./src/images/prototipo_desk.jpeg"/></div>
 
 #### Desktop Feed
 <div align="center"><img src="./src/images/feed_desk.jpeg"/></div>
