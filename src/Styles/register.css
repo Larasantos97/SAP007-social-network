@@ -1,6 +1,7 @@
 @media screen and (min-width: 360px){
 .main-register {
   display: flex;
+
 }
 
 .container {
@@ -63,7 +64,7 @@
   .main-register {
     display: flex;
     margin-left: 50%;
-    margin-top: 15%;
+    margin-top: 10%;
   }
 
   .title-register {
@@ -84,7 +85,7 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 15%;
   }
 }
 
